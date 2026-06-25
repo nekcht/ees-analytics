@@ -23,6 +23,24 @@ The project was developed as a full-stack monitoring and analytics platform for 
 - Docker-based deployment design with separated frontend, backend, monitoring and supporting services
 - Privacy-aware engineering, with sensitive data, internal endpoints, operational rules and credentials excluded from the public version
 
+## Screenshots
+
+### Component health dashboard
+
+![Component health dashboard](docs/screenshots/system-monitor-dashboard.png)
+
+### Feature heat and threshold controls
+
+![Feature heat and threshold controls](docs/screenshots/system-monitor-feature-heat.png)
+
+### Interactive map dashboard
+
+![Interactive map dashboard](docs/screenshots/interactive-map-dashboard.png)
+
+### Assistant workflow
+
+![Assistant workflow](docs/screenshots/assistant-workflow.png)
+
 ## Technical highlights
 
 ### Monitoring and anomaly detection
@@ -88,24 +106,6 @@ The assistant workflow demonstrates:
 - structured execution planning
 - downloadable artifact response
 - separation between casual conversation and executable report requests
-
-## Screenshots
-
-### Component health dashboard
-
-![Component health dashboard](docs/screenshots/system-monitor-dashboard.png)
-
-### Feature heat and threshold controls
-
-![Feature heat and threshold controls](docs/screenshots/system-monitor-feature-heat.png)
-
-### Interactive map dashboard
-
-![Interactive map dashboard](docs/screenshots/interactive-map-dashboard.png)
-
-### Assistant workflow
-
-![Assistant workflow](docs/screenshots/assistant-workflow.png)
 
 ## High-level architecture
 
