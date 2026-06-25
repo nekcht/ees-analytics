@@ -70,4 +70,4 @@ For that reason, this repository only contains a sanitized overview and redacted
 - Automated report generation
 - Excel, chart, metadata and ZIP export workflows
 - Monitoring and warning dashboards
-- Local assistant workflow for structured report generation
+- Local LLM assistant workflow for structured report generation
