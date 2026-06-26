@@ -25,21 +25,39 @@ The project was developed as a full-stack monitoring and analytics platform for 
 
 ## Screenshots
 
-### Component health dashboard
+The public screenshots are redacted views from the internal application. They show the main operator workflows while intentionally blurring sensitive names, locations, report definitions and operational data.
 
-![Component health dashboard](docs/screenshots/system-monitor-dashboard.png)
+### System monitor overview
 
-### Feature heat and threshold controls
+![System monitor overview](docs/screenshots/system-monitor-dashboard.png)
+
+The system monitor overview summarizes the current warning-monitor state, health risk index, tracked feature alerts and recent timeline activity. It is designed to give operators a fast read on whether the monitored system is nominal, degrading or actively alerting.
+
+### Feature heat and alert lifecycle
 
 ![Feature heat and threshold controls](docs/screenshots/system-monitor-feature-heat.png)
 
-### Interactive map dashboard
+The feature heat view exposes normalized robust z-score pressure by feature, threshold controls and alert lifecycle events. Operators can compare feature contributions, tune warning thresholds and review active, suppressed or recovered alerts from the same screen.
 
-![Interactive map dashboard](docs/screenshots/interactive-map-dashboard.png)
+### Assistant report workflow
 
-### Assistant workflow
+![Assistant report workflow](docs/screenshots/assistant-workflow.png)
 
-![Assistant workflow](docs/screenshots/assistant-workflow.png)
+The assistant interface converts natural-language report requests into controlled report-generation workflows. In the internal version, successful requests can return downloadable Excel artifacts after validating the requested date range, report type and output constraints.
+
+### Scheduled jobs workspace
+
+The jobs workspace supports repeatable report definitions, delivery settings and lifecycle controls for automated reporting. The internal UI includes controls for creating jobs, reviewing existing schedules, editing definitions and removing obsolete jobs.
+
+### Interactive operational map
+
+![Interactive operational map dashboard](docs/screenshots/interactive-map-dashboard.png)
+
+The interactive map provides a geographic operational overview with status counters, activity windows and alerting point indicators. The public screenshot intentionally obscures map details and point locations while preserving the dashboard structure.
+
+### Map point detail analytics
+
+Map point drill-down views provide point-level trends and processing metrics for triage. In the internal version, selecting a point can open a detail panel with bucketed trend charts, peak-time context and processing-duration comparisons.
 
 ## Technical highlights
 
