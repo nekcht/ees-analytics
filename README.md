@@ -25,21 +25,43 @@ The project was developed as a full-stack monitoring and analytics platform for 
 
 ## Screenshots
 
+The screenshots are sanitized: operational identifiers, locations, labels and data values have been blurred or replaced with generic content.
+
 ### Component health dashboard
 
-![Component health dashboard](docs/screenshots/system-monitor-dashboard.png)
+The component health view summarizes monitor status, health-risk index, feature alert counts and recent warning trends.
 
-### Feature heat and threshold controls
+![Component health dashboard](docs/screenshots/alerts_2.png)
 
-![Feature heat and threshold controls](docs/screenshots/system-monitor-feature-heat.png)
+### Feature heat and alert timeline
 
-### Interactive map dashboard
+The warning monitor combines feature-level pressure indicators, threshold controls and recent alert lifecycle events.
 
-![Interactive map dashboard](docs/screenshots/interactive-map-dashboard.png)
+![Feature heat and alert timeline](docs/screenshots/alerts_1.png)
+
+### Interactive map overview
+
+The map view shows a redacted geographic operations layer with status cards and alerting point counts.
+
+![Interactive map overview](docs/screenshots/map_1.png)
+
+### Map point drill-down
+
+Selecting an alerting point opens a detail panel with status metrics and operational trend charts.
+
+![Map point drill-down](docs/screenshots/map_2.png)
 
 ### Assistant workflow
 
-![Assistant workflow](docs/screenshots/assistant-workflow.png)
+The assistant workflow demonstrates conversational report generation and downloadable export artifacts.
+
+![Assistant workflow](docs/screenshots/assistant_1.png)
+
+### Scheduled report jobs
+
+The jobs interface supports creating, reviewing, editing and deleting automated report schedules.
+
+![Scheduled report jobs](docs/screenshots/jobs_1.png)
 
 ## Technical highlights
 
